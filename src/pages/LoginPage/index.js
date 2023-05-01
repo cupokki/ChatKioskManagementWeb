@@ -3,8 +3,8 @@ export default function LoginPage(){
         <div className="Login-panel">
             <h2>로그인</h2>
             <form method="post">
-                <input placeholder="username"></input>
-                <input placeholder="password"></input>
+                <input name="username" placeholder="username"></input>
+                <input name="password" placeholder="password"></input>
                 <input type="submit"></input>
             </form>
         </div>
