@@ -9,14 +9,21 @@ import RegisterPage from './pages/RegisterPage';
 
 
 
+
+
+
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
       </header>
       <BrowserRouter>
         <Routes>
+          
           <Route path="/" element={<MainPage/>}/>
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="/register" element={<RegisterPage/>}/>
